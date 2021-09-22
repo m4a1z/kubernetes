@@ -1,6 +1,36 @@
 3강 쿠버네티스 어떤걸 배울까?
 
 - 프로그램 개발 , 배포 과정
-  L 코드작성
-  - git  push  / request
-  - build / create container Image / Push 
+  L 
+  1. Developer : 코드작성
+  2. g\Git :   push  / request
+  3. Build :  create container Image / Push container Image
+  4. Deploy : new / update
+  5. Kubernetes 
+  6. Scale out
+
+
+  학습범위
+
+  - 도커 컨테이너 실행하기 : 도커와 도커컴포즈를 이용한 멀티 컨테이너 관리
+  - 쿠버네티스에 컨테이너 배포하기 : 실습 환경 만들기 / kubectl 사용법 / pod, deployment , service 등 기본 리소스 학습
+  - 외부 접속 설정 하기 : cluster ip , node port loadbalancer , ingress / 서비스 타입 학습 , 서비스 디스커버리 학습
+  - 스케일 아웃 하기 : 부하에 따른 컨테이너 개수 조정 ,  최소 리소스 요청 설정
+  - 그외 고급기능 소개 : HELM 패키지 매니저 소개 / Git OPS / ServiceMesh 소개
+
+  다루지 않는 범위
+
+  - 특정 환경별 특징 (bare metal, EKS)
+  - 쿠버네티스 패턴 (사이드카 , 어댑터)
+  - 관련 생태계 (서비스 메시, 서버리스)
+  - GitOPS CI/CD
+  - 승인 제어 등 고급기능
+
+  쿠버네티스 는 어렵다 (모든것을 다 하려면)
+
+  쉽게 접근해보자
+  1. 구성요소를 이해
+  2. 동작 원리를 파악
+  3. 기본적인 사용법을 익혀봅시다.
+
+  개인 실습 자료 제공 합니다.!
