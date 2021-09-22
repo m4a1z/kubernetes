@@ -1,0 +1,6 @@
+3강 쿠버네티스 어떤걸 배울까?
+
+- 프로그램 개발 , 배포 과정
+  L 코드작성
+  - git  push  / request
+  - build / create container Image / Push 
